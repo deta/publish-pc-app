@@ -26,6 +26,10 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: '14.x'
+    - name: Setup NodeJS 16.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16.x'
     - name: Setup Python 3.7
       uses: actions/setup-python@v4
       with:
